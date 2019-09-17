@@ -1,6 +1,6 @@
 	int islandPerimeter(vector<vector<int>>& grid) {
         vector<vector<int>> visited(grid.size(), vector<int>(grid[0].size(), 0));
-        
+       
         int peri = 0;
         for (int i = 0; i < grid.size(); i++) {
             for (int j = 0; j < grid[0].size(); j++) {
@@ -11,7 +11,6 @@
                 }
             }
         }
-        
         return peri;
     }
     
